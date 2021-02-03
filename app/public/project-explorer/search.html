@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Project Explorer</h1>
+    <h2>One Stop Database for Academic Projects</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <a href="./index.html">Home</a>
+      <a href="./search.html">Projects</a>
+      <a href="./login.html">Login</a>
+      <a href="./register.html">Register</a>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Search Form -->
+    <section>
+      <h2>Search Project By</h2>
+      <form name="searchForm">
+        <div>
+          <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags" />
+        </div>
+        <br />
+        <label>Search by:</label>
+        <br />
+        <div>
+          <select name="searchType">
+            <option value="Name"> Name</option>
+            <option value="Abstract">Abstract</option>
+            <option value="Authors">Authors</option>
+            <option value="Tags">Tags</option>
+          </select>
+        </div>
+        <br />
+        <input type='submit' value="Search" />
+      </form>
+    </section>
+    <!-- Search Results -->
+    <section>
+      <h2>Search Result</h2>
+      <div>
+        <h2>Project 1</h2>
+
+        <ul>
+          <li>Name: Project 1</li>
+          <li>Description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis! In dicta
+            porro facere, doloremque est ipsa officia impedit quae modi sapiente nostrum asperiores pariatur. Cumque
+            harum corporis quas. Quaerat?
+          </li>
+          <li>Program: Computer Science</li>
+          <li>Authors: John Doe, Jane Doe</li>
+          <li>Tags: #Asphyxia, #GSW</li>
+          <li>Graduation Year: 2018</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
