@@ -14,10 +14,10 @@
   </header>
   <nav>
     <ul>
-      <a href="./index.html">Home</a>
-      <a href="./search.html">Projects</a>
-      <a href="./login.html">Login</a>
-      <a href="./register.html">Register</a>
+      <a href="index.html">Home</a>
+      <a href="search.html">Projects</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
 
     </ul>
 
@@ -25,7 +25,7 @@
   <main>
     <!-- Profile Summary -->
     <section>
-      <h2>John Doe</h2>
+      <h3>John Doe</h3>
       <p>john.doe@gmail.com</p>
       <ul>
         <li>Program: Computer Science</li>
@@ -100,22 +100,15 @@
     <section>
       <h2>Change Password</h2>
       <form>
-        <div>
+        <form name="changePassword">
           <label>Current Password:</label>
-          <input type="password" name="currentpassword" />
-        </div>
-        <br />
-        <div>
+          <input type="password" name="currentPassword" /><br /><br />
           <label>New Password:</label>
-          <input type="password" name="newpassword" />
-        </div>
-        <br />
-        <div>
+          <input type="password" name="newPassword" /><br /><br />
           <label>Confirm Password:</label>
-          <input type="password" name="confirmpassword" />
-        </div>
-        <br />
-        <input type="submit" />
+          <input type="password" name="confirmPassword" /><br /><br />
+          <input type="submit" />
+        </form>
       </form>
     </section>
   </main>
