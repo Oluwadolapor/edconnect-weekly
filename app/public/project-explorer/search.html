@@ -40,6 +40,36 @@
     <div class=" mt-5 mx-auto w-75">
       <h2>Project Gallery</h2>
       <div class="container">
+        <div class="p-3 mt-3 mb-5 bg-light text-dark row">
+          <div class="col">
+            <form method="get" action="/projects" class="">
+              <div class="mt-2 form-row">
+                <div class="col">
+                  <input placeholder="Search project name, authors, abstract, tags" name="searchTerm" type="text"
+                    class="form-control form-control-lg" />
+                </div>
+                <div class="col-md-auto">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Search by</span>
+                    </div>
+                    <select class="form-control form-control-lg" name="searchCategory">
+                      <option value="Name" selected="">Name</option>
+                      <option value="Abstract">Abstract</option>
+                      <option value="Authors">Authors</option>
+                      <option value="Tags">Tags</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-auto">
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container">
         <div class="bg-light p-3 align-items-center">
           <form>
 
@@ -69,7 +99,7 @@
 
           </form>
         </div>
-      </div>
+      </div> -->
       <h3 class="mt-5">All Projects (10 results) </h3>
       <hr />
       <div class="container">
